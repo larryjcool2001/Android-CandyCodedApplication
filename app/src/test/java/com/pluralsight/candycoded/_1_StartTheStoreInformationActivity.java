@@ -83,7 +83,6 @@ public class _1_StartTheStoreInformationActivity {
             Mockito.verify(activity).startActivity(Mockito.eq(intent));
             called_startActivity = true;
 
-
         } catch (Throwable e) {
             //e.printStackTrace();
         }
