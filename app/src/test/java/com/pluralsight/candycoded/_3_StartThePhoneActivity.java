@@ -45,7 +45,12 @@ public class _3_StartThePhoneActivity {
     @BeforeClass
     public static void setup() throws Exception {
         // Spy on a MainActivity instance.
-        infoActivity = PowerMockito.spy(new InfoActivity());
+        infoActivity = PowerMockito.spy(new InfoActivity() {
+            @Override
+            public void createMapIntent(View view) {
+
+            }
+        });
         // Create a fake Bundle to pass in.
         Bundle bundle = mock(Bundle.class);
         Uri mockUri = mock(Uri.class);
