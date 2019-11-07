@@ -48,12 +48,7 @@ public class _2_StartTheGoogleMapsActivity {
     @BeforeClass
     public static void setup() throws Exception {
         // Spy on a MainActivity instance.
-        InfoActivity infoActivity = PowerMockito.spy(new InfoActivity() {
-            @Override
-            public void createMapIntent(View view) {
-
-            }
-        });
+        InfoActivity infoActivity = PowerMockito.spy(new InfoActivity());
         // Create a fake Bundle to pass in.
         Bundle bundle = mock(Bundle.class);
         Uri mockUri = mock(Uri.class);

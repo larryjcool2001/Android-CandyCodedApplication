@@ -9,7 +9,7 @@ import android.widget.ImageView;
 
 import com.squareup.picasso.Picasso;
 
-public abstract class InfoActivity extends AppCompatActivity {
+public class InfoActivity extends AppCompatActivity {
 
     private View view;
 
@@ -28,7 +28,7 @@ public abstract class InfoActivity extends AppCompatActivity {
     // ***
     // TODO - Task 2 - Launch the Google Maps Activity
     // ***
-    public void creatMapIntent(View view) {
+    public void createMapIntent(View view) {
         Uri uriAddress = Uri.parse("geo:0,0?q=618 E South St Orlando, FL 32801");
         Intent mapIntent = new Intent(Intent.ACTION_VIEW, uriAddress);
         mapIntent.setPackage("com.google.android.apps.maps");
@@ -41,7 +41,7 @@ public abstract class InfoActivity extends AppCompatActivity {
     // ***
     // TODO - Task 2 - Launch the Google Maps Activity
     // ***
-    public abstract void createMapIntent(View view);
+
     // ***
     // TODO - Task 3 - Launch the Phone Activity
     // ***
