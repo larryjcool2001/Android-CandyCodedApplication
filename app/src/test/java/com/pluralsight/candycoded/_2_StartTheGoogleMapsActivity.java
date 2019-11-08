@@ -36,7 +36,7 @@ import static org.mockito.Mockito.verify;
 @RunWith(PowerMockRunner.class)
 public class _2_StartTheGoogleMapsActivity {
 
-    public static final String LAYOUT_XML_FILE = "res/layout/activity_info.xml";
+    private static final String LAYOUT_XML_FILE = "res/layout/activity_info.xml";
     private static boolean called_uri_parse = false;
     private static boolean created_intent = false;
     private static boolean created_intent_correctly = false;

@@ -29,13 +29,28 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 
 
+/**
+ *
+ */
 //@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 @PrepareForTest({AppCompatActivity.class, Intent.class, Uri.class, InfoActivity.class})
 @RunWith(PowerMockRunner.class)
+
 public class _3_StartThePhoneActivity {
 
     public static final String LAYOUT_XML_FILE = "res/layout/activity_info.xml";
+    // Spy on a MainActivity instance.
     private static InfoActivity infoActivity;
+
+    static {
+        infoActivity = PowerMockito.spy(new InfoActivity() {
+            @Override
+            public void createMapIntent(View view) {
+
+            }
+        });
+    }
+
     private static boolean created_intent = false;
     private static boolean set_data = false;
     private static boolean called_uri_parse = false;
@@ -44,13 +59,6 @@ public class _3_StartThePhoneActivity {
     // Mockito setup
     @BeforeClass
     public static void setup() throws Exception {
-        // Spy on a MainActivity instance.
-        infoActivity = PowerMockito.spy(new InfoActivity() {
-            @Override
-            public void createMapIntent(View view) {
-
-            }
-        });
         // Create a fake Bundle to pass in.
         Bundle bundle = mock(Bundle.class);
         Uri mockUri = mock(Uri.class);
@@ -73,7 +81,7 @@ public class _3_StartThePhoneActivity {
             try {
                 //infoActivity.createPhoneIntent(null);
                 Method myMethod =  InfoActivity.class
-                        .getMethod("createPhoneIntent", View.class);
+                        .getMethod("createPhoneIntent", new Class<?>[]{View.class});
                 Object[] param = {null};
                 myMethod.invoke(infoActivity, param);
             } catch (Throwable e) {
@@ -144,7 +152,6 @@ public class _3_StartThePhoneActivity {
 
     public ArrayList<XMLTestHelpers.ViewContainer> readLayoutXML(String layoutFileName) {
         InputStream inputStream = null;
-
         ArrayList<XMLTestHelpers.ViewContainer> viewContainers = new ArrayList<XMLTestHelpers.ViewContainer>();
 
         try {

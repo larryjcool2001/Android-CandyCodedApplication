@@ -9,6 +9,8 @@ import android.widget.ImageView;
 
 import com.squareup.picasso.Picasso;
 
+import static android.content.Intent.ACTION_DIAL;
+
 public class InfoActivity extends AppCompatActivity {
 
     private View view;
@@ -39,8 +41,13 @@ public class InfoActivity extends AppCompatActivity {
     }
 
     // ***
-    // TODO - Task 2 - Launch the Google Maps Activity
+    // TODO - Task 3 - Launch the Phone Activity
     // ***
+    public void createPhoneIntent(View view) {
+        Intent phoneIntent = new Intent(ACTION_DIAL);
+        phoneIntent.setData(Uri.parse("tel:0123456789"));
+        startActivity(phoneIntent);
+    }
 
     // ***
     // TODO - Task 3 - Launch the Phone Activity
