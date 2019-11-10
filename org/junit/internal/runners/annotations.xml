@@ -1,5 +1,5 @@
 <root>
     <item name='org.junit.internal.runners.ClassRoadie void runProtected()'>
-        <annotation name='java.lang.Deprecated' />
+        <annotation name='org.jetbrains.annotations.NonBlocking' />
     </item>
 </root>

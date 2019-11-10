@@ -22,6 +22,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
+import java.util.Objects;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
@@ -33,12 +34,13 @@ import static org.mockito.Mockito.verify;
  *
  */
 //@FixMethodOrder(MethodSorters.NAME_ASCENDING)
+@SuppressWarnings("ALL")
 @PrepareForTest({AppCompatActivity.class, Intent.class, Uri.class, InfoActivity.class})
 @RunWith(PowerMockRunner.class)
 
 public class _3_StartThePhoneActivity {
 
-    public static final String LAYOUT_XML_FILE = "res/layout/activity_info.xml";
+    private static final String LAYOUT_XML_FILE = "res/layout/activity_info.xml";
     // Spy on a MainActivity instance.
     private static InfoActivity infoActivity;
 
@@ -81,7 +83,7 @@ public class _3_StartThePhoneActivity {
             try {
                 //infoActivity.createPhoneIntent(null);
                 Method myMethod =  InfoActivity.class
-                        .getMethod("createPhoneIntent", new Class<?>[]{View.class});
+                        .getMethod("createPhoneIntent", View.class);
                 Object[] param = {null};
                 myMethod.invoke(infoActivity, param);
             } catch (Throwable e) {
@@ -145,9 +147,8 @@ public class _3_StartThePhoneActivity {
                 new XMLTestHelpers.ViewContainer("@+id/text_view_phone", "createPhoneIntent", "true");
         boolean address_set_correct =  viewContainers.contains(addressView);
 
-        Assert.assertTrue("In activity_info.xml, the TextView text_view_phone does not have " +
-                        "the clickable and onClick properties set.",
-                address_set_correct);
+        Assert.assertEquals("In activity_info.xml, the TextView text_view_phone does not have " +
+                "the clickable and onClick properties set.", true, address_set_correct);
     }
 
     public ArrayList<XMLTestHelpers.ViewContainer> readLayoutXML(String layoutFileName) {
@@ -155,7 +156,7 @@ public class _3_StartThePhoneActivity {
         ArrayList<XMLTestHelpers.ViewContainer> viewContainers = new ArrayList<XMLTestHelpers.ViewContainer>();
 
         try {
-            inputStream = this.getClass().getClassLoader().getResourceAsStream(layoutFileName);
+            inputStream = Objects.requireNonNull(this.getClass().getClassLoader()).getResourceAsStream(layoutFileName);
             XmlPullParserFactory factory = XmlPullParserFactory.newInstance();
             factory.setNamespaceAware(false);
             XmlPullParser parser = factory.newPullParser();
