@@ -13,7 +13,7 @@ import static android.content.Intent.ACTION_DIAL;
 
 public class InfoActivity extends AppCompatActivity {
 
-    private View view;
+    public View view;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +21,7 @@ public class InfoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_info);
 
         Uri uri = Uri.parse("android.resource://com.codeschool.candycoded/" + R.drawable.store_front);
-        ImageView candyStoreImageView = (ImageView)findViewById(R.id.image_view_candy_store);
+        ImageView candyStoreImageView = findViewById(R.id.image_view_candy_store);
         Picasso.with(this).
                 load(uri).
                 into(candyStoreImageView);
@@ -44,7 +44,7 @@ public class InfoActivity extends AppCompatActivity {
     // TODO - Task 3 - Launch the Phone Activity
     // ***
     public void createPhoneIntent(View view) {
-        Intent phoneIntent = new Intent(ACTION_DIAL);
+        Intent phoneIntent = new Intent(Intent.ACTION_DIAL);
         phoneIntent.setData(Uri.parse("tel:0123456789"));
         startActivity(phoneIntent);
     }

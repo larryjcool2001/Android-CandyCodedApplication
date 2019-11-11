@@ -1,5 +1,6 @@
 <root>
     <item name='org.junit.internal.runners.ClassRoadie void runProtected()'>
         <annotation name='org.jetbrains.annotations.NonBlocking' />
+        <annotation name='org.jetbrains.annotations.Blocking' />
     </item>
 </root>

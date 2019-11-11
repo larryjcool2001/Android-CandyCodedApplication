@@ -10,11 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b7633b6-91c2-4d9c-80c2-5897a3f35d39" name="Default Changelist" comment="StartThePhoneActivity">
-      <change afterPath="$PROJECT_DIR$/java/lang/annotations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org/mockito/internal/creation/bytebuddy/annotations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org/powermock/api/mockito/internal/mockcreation/annotations.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/SettingsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/SettingsActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/InfoActivityTestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/InfoActivityTestTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/_1_StartTheStoreInformationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/_1_StartTheStoreInformationActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/_3_StartThePhoneActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/_3_StartThePhoneActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/lang/annotations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/lang/annotations.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/org/junit/internal/runners/annotations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/org/junit/internal/runners/annotations.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,92 +51,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/_3_StartThePhoneActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="46" column="12" lean-forward="true" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+            <state relative-caret-position="124">
+              <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#964#988#0" expanded="true" />
-                <element signature="e#5331#5361#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-module-junit4/1.7.1/3319960ab1290589960e73920888e944392224b1/powermock-module-junit4-1.7.1-sources.jar!/org/powermock/modules/junit4/PowerMockRunner.java">
+        <entry file="file://$PROJECT_DIR$/org/mockito/internal/creation/bytebuddy/annotations.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org/powermock/api/mockito/internal/mockcreation/annotations.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.8.9/45f340ae3e0a0d7a97a1cb8173a081a3856c41eb/mockito-core-2.8.9-sources.jar!/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+            <state relative-caret-position="132">
+              <caret line="93" column="7" lean-forward="true" selection-start-line="93" selection-start-column="7" selection-end-line="93" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/_2_StartTheGoogleMapsActivity.java">
+        <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/java/lang/ClassLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-356">
-              <caret line="114" column="16" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="16" />
+            <state relative-caret-position="-131">
+              <caret line="762" selection-start-line="762" selection-end-line="762" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/_1_StartTheStoreInformationActivity.java">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.8.9/45f340ae3e0a0d7a97a1cb8173a081a3856c41eb/mockito-core-2.8.9-sources.jar!/org/mockito/internal/creation/bytebuddy/TypeCachingBytecodeGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/InfoActivityTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/InfoActivityTestTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-module-junit4/1.7.1/3319960ab1290589960e73920888e944392224b1/powermock-module-junit4-1.7.1-sources.jar!/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="135" column="11" selection-start-line="135" selection-start-column="11" selection-end-line="135" selection-end-column="11" />
+            <state relative-caret-position="115">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
-                <element signature="e#5669#5801#0" expanded="true" />
-                <element signature="e#5800#5801#0" expanded="true" />
+                <element signature="e#1308#1554#0" expanded="true" />
+                <element signature="e#1553#1554#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-module-junit4-common/1.7.1/492b0987e5dcfef9997575e0c68245193156d6b2/powermock-module-junit4-common-1.7.1-sources.jar!/org/powermock/modules/junit4/common/internal/impl/JUnit4TestSuiteChunkerImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="120" column="12" lean-forward="true" selection-start-line="120" selection-start-column="12" selection-end-line="120" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-module-junit4-common/1.7.1/492b0987e5dcfef9997575e0c68245193156d6b2/powermock-module-junit4-common-1.7.1-sources.jar!/org/powermock/modules/junit4/common/internal/impl/AbstractCommonPowerMockRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -141,7 +108,37 @@
         <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-api-mockito2/1.7.1/869430e9357a35fdccdb89f4bfbc1365eaff3559/powermock-api-mockito2-1.7.1-sources.jar!/org/powermock/api/mockito/PowerMockito.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="124">
-              <caret line="206" column="5" selection-start-line="206" selection-start-column="5" selection-end-line="206" selection-end-column="5" />
+              <caret line="206" column="34" selection-start-line="206" selection-start-column="34" selection-end-line="206" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.8.9/45f340ae3e0a0d7a97a1cb8173a081a3856c41eb/mockito-core-2.8.9-sources.jar!/org/mockito/internal/creation/bytebuddy/SubclassByteBuddyMockMaker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="70" column="48" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -168,7 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/_2_StartTheGoogleMapsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_info.xml" />
@@ -176,11 +172,16 @@
         <option value="$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/InfoActivityTest.java" />
         <option value="$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/BuildConfigTest.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/override.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/_1_StartTheStoreInformationActivity.java" />
         <option value="$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/InfoActivityTestTest.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/SettingsActivity.java" />
+        <option value="$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/java/lang/ClassLoader.java" />
         <option value="$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/_3_StartThePhoneActivityImpl.java" />
         <option value="$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/_3_StartThePhoneActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/_1_StartTheStoreInformationActivity.java" />
+        <option value="$PROJECT_DIR$/org/mockito/internal/creation/bytebuddy/annotations.xml" />
+        <option value="$PROJECT_DIR$/org/powermock/api/mockito/internal/mockcreation/annotations.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -194,9 +195,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -225,6 +223,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -263,22 +264,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Android JUnit._3_StartThePhoneActivity">
-    <configuration name="_1_StartTheStoreInformationActivity" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pluralsight.candycoded.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.pluralsight.candycoded" />
-      <option name="MAIN_CLASS_NAME" value="com.pluralsight.candycoded._1_StartTheStoreInformationActivity" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="_2_StartTheGoogleMapsActivity" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <extension name="coverage">
@@ -311,6 +296,40 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_3_StartThePhoneActivity.createPhoneIntent_Exists" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pluralsight.candycoded.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pluralsight.candycoded" />
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.candycoded._3_StartThePhoneActivity" />
+      <option name="METHOD_NAME" value="createPhoneIntent_Exists" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_3_StartThePhoneActivity.create_actiondial_phone_intent" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pluralsight.candycoded.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pluralsight.candycoded" />
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.candycoded._3_StartThePhoneActivity" />
+      <option name="METHOD_NAME" value="create_actiondial_phone_intent" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_3_StartThePhoneActivity.phone_intent_start_activity" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <extension name="coverage">
@@ -322,23 +341,6 @@
       <option name="PACKAGE_NAME" value="com.pluralsight.candycoded" />
       <option name="MAIN_CLASS_NAME" value="com.pluralsight.candycoded._3_StartThePhoneActivity" />
       <option name="METHOD_NAME" value="phone_intent_start_activity" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_3_StartThePhoneActivity.test_xml" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pluralsight.candycoded.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.pluralsight.candycoded" />
-      <option name="MAIN_CLASS_NAME" value="com.pluralsight.candycoded._3_StartThePhoneActivity" />
-      <option name="METHOD_NAME" value="test_xml" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -461,10 +463,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Android JUnit._3_StartThePhoneActivity" />
+        <item itemvalue="Android JUnit._3_StartThePhoneActivity.createPhoneIntent_Exists" />
         <item itemvalue="Android JUnit._3_StartThePhoneActivity.phone_intent_start_activity" />
+        <item itemvalue="Android JUnit._3_StartThePhoneActivity.create_actiondial_phone_intent" />
         <item itemvalue="Android JUnit._2_StartTheGoogleMapsActivity" />
-        <item itemvalue="Android JUnit._1_StartTheStoreInformationActivity" />
-        <item itemvalue="Android JUnit._3_StartThePhoneActivity.test_xml" />
       </list>
     </recent_temporary>
   </component>
@@ -500,42 +502,49 @@
       <option name="project" value="LOCAL" />
       <updated>1573147260091</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="StartThePhoneActivity">
+      <created>1573353538903</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1573353538903</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_3_StartThePhoneActivity - 2019.11.09 at 20h 28m 03s.xml">
+    <history-entry file="_3_StartThePhoneActivity - 2019.11.10 at 20h 52m 51s.xml">
       <configuration name="_3_StartThePhoneActivity" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="_3_StartThePhoneActivity - 2019.11.09 at 20h 43m 00s.xml">
+    <history-entry file="_3_StartThePhoneActivity - 2019.11.10 at 21h 07m 31s.xml">
       <configuration name="_3_StartThePhoneActivity" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="_3_StartThePhoneActivity - 2019.11.09 at 20h 43m 40s.xml">
+    <history-entry file="_3_StartThePhoneActivity - 2019.11.10 at 21h 10m 25s.xml">
       <configuration name="_3_StartThePhoneActivity" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="_3_StartThePhoneActivity - 2019.11.09 at 20h 44m 19s.xml">
+    <history-entry file="_3_StartThePhoneActivity_createPhoneIntent_Exists - 2019.11.10 at 21h 18m 12s.xml">
+      <configuration name="_3_StartThePhoneActivity.createPhoneIntent_Exists" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="_3_StartThePhoneActivity - 2019.11.10 at 21h 20m 46s.xml">
       <configuration name="_3_StartThePhoneActivity" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="_3_StartThePhoneActivity - 2019.11.10 at 02h 49m 21s.xml">
+    <history-entry file="_3_StartThePhoneActivity - 2019.11.10 at 21h 21m 55s.xml">
       <configuration name="_3_StartThePhoneActivity" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="_3_StartThePhoneActivity - 2019.11.10 at 03h 28m 35s.xml">
+    <history-entry file="_3_StartThePhoneActivity - 2019.11.10 at 21h 29m 35s.xml">
       <configuration name="_3_StartThePhoneActivity" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="_3_StartThePhoneActivity - 2019.11.10 at 03h 32m 24s.xml">
+    <history-entry file="_3_StartThePhoneActivity - 2019.11.11 at 01h 59m 04s.xml">
       <configuration name="_3_StartThePhoneActivity" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="_3_StartThePhoneActivity - 2019.11.10 at 03h 36m 30s.xml">
+    <history-entry file="_3_StartThePhoneActivity - 2019.11.11 at 02h 02m 02s.xml">
       <configuration name="_3_StartThePhoneActivity" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="_3_StartThePhoneActivity - 2019.11.10 at 03h 37m 05s.xml">
-      <configuration name="_3_StartThePhoneActivity" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="_3_StartThePhoneActivity - 2019.11.10 at 03h 37m 59s.xml">
+    <history-entry file="_3_StartThePhoneActivity - 2019.11.11 at 03h 25m 03s.xml">
       <configuration name="_3_StartThePhoneActivity" configurationId="AndroidJUnit" />
     </history-entry>
   </component>
-  <component name="TodoView" selected-index="4">
+  <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -557,20 +566,20 @@
       <window_info id="Designer" order="6" />
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
-      <window_info anchor="bottom" id="Inspection Results" weight="0.3289689" />
-      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49848714" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Messages" order="0" sideWeight="0.49621785" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.4977307" weight="0.3289689" />
-      <window_info anchor="bottom" id="Logcat" order="2" sideWeight="0.49924356" weight="0.20130932" />
-      <window_info anchor="bottom" id="TODO" order="3" sideWeight="0.49848714" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49394855" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.35022694" side_tool="true" weight="0.30605564" />
-      <window_info anchor="bottom" id="Build" order="6" sideWeight="0.48487142" weight="0.49590835" />
+      <window_info anchor="bottom" id="Logcat" order="2" sideWeight="0.49848714" weight="0.20130932" />
+      <window_info anchor="bottom" id="TODO" order="3" sideWeight="0.4977307" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49319214" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50378215" side_tool="true" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Build" order="6" sideWeight="0.48335856" weight="0.49590835" />
       <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.64977306" weight="0.30605564" />
-      <window_info active="true" anchor="bottom" id="Debug" order="9" sideWeight="0.4871407" visible="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Find" order="10" sideWeight="0.49621785" weight="0.3289689" />
-      <window_info anchor="right" id="Coverage" order="0" sideWeight="0.5243902" side_tool="true" visible="true" weight="0.031013615" />
-      <window_info anchor="right" id="Preview" order="1" sideWeight="0.47560975" weight="0.17700455" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.6429652" weight="0.30605564" />
+      <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.48411497" weight="0.3289689" />
+      <window_info anchor="bottom" id="Find" order="10" sideWeight="0.49546143" weight="0.3289689" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.3289689" />
+      <window_info anchor="right" id="Coverage" order="0" sideWeight="0.53170735" side_tool="true" visible="true" weight="0.17700455" />
+      <window_info anchor="right" id="Preview" order="1" sideWeight="0.46829268" weight="0.17700455" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
@@ -654,7 +663,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="StartThePhoneActivity" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ANDRIOD_PROJ1$_3_StartThePhoneActivity.ic" NAME="_3_StartThePhoneActivity Coverage Results" MODIFIED="1573318577786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/ANDRIOD_PROJ1$_3_StartThePhoneActivity.ic" NAME="_3_StartThePhoneActivity Coverage Results" MODIFIED="1573434073413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.pluralsight.candycoded.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/ANDRIOD_PROJ1$_3_StartThePhoneActivity_test_xml.ic" NAME="_3_StartThePhoneActivity.test_xml Coverage Results" MODIFIED="1573322524091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -663,7 +672,10 @@
     <SUITE FILE_PATH="coverage/ANDRIOD_PROJ1$_2_StartTheGoogleMapsActivity.ic" NAME="_2_StartTheGoogleMapsActivity Coverage Results" MODIFIED="1573043940275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.pluralsight.candycoded.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/ANDRIOD_PROJ1$_3_StartThePhoneActivity_createPhoneIntent_Exists.ic" NAME="_3_StartThePhoneActivity.createPhoneIntent_Exists Coverage Results" MODIFIED="1573249385117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/ANDRIOD_PROJ1$_3_StartThePhoneActivity_create_actiondial_phone_intent.ic" NAME="_3_StartThePhoneActivity.create_actiondial_phone_intent Coverage Results" MODIFIED="1573394332411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.pluralsight.candycoded.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ANDRIOD_PROJ1$_3_StartThePhoneActivity_createPhoneIntent_Exists.ic" NAME="_3_StartThePhoneActivity.createPhoneIntent_Exists Coverage Results" MODIFIED="1573401954310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.pluralsight.candycoded.*</FILTER>
     </SUITE>
   </component>
@@ -701,17 +713,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
           <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/SettingsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -722,10 +727,164 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/pluralsight/candycoded/BuildConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/BuildConfigTest.java" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/sun/reflect/MethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/override.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/InfoActivityTestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/InfoActivityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.8.9/45f340ae3e0a0d7a97a1cb8173a081a3856c41eb/mockito-core-2.8.9-sources.jar!/org/mockito/plugins/MockMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.8.9/1afb35b2d77d40567756c379e54c18da3574a96e/mockito-core-2.8.9.jar!/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_info.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/SettingsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/_4_ShareACandyWithAnIntent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="44" column="3" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/DetailActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="75" column="7" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/_1_StartTheStoreInformationActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-595">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/_2_StartTheGoogleMapsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="83" column="7" selection-start-line="83" selection-start-column="7" selection-end-line="83" selection-end-column="7" />
+          <caret line="114" column="27" selection-start-line="113" selection-start-column="4" selection-end-line="117" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-core/1.7.1/b0e7619d713b2862b9c34329e1bb39086c07bc7/powermock-core-1.7.1-sources.jar!/org/powermock/core/classloader/DeferSupportingClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="177" column="28" selection-start-line="177" selection-start-column="28" selection-end-line="177" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-module-junit4/1.7.1/3319960ab1290589960e73920888e944392224b1/powermock-module-junit4-1.7.1-sources.jar!/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="135" column="11" selection-start-line="135" selection-start-column="11" selection-end-line="135" selection-end-column="11" />
+          <folding>
+            <element signature="e#5669#5801#0" expanded="true" />
+            <element signature="e#5800#5801#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-module-junit4-common/1.7.1/492b0987e5dcfef9997575e0c68245193156d6b2/powermock-module-junit4-common-1.7.1-sources.jar!/org/powermock/modules/junit4/common/internal/impl/JUnit4TestSuiteChunkerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="120" column="25" selection-start-line="120" selection-start-column="25" selection-end-line="120" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-module-junit4-common/1.7.1/492b0987e5dcfef9997575e0c68245193156d6b2/powermock-module-junit4-common-1.7.1-sources.jar!/org/powermock/modules/junit4/common/internal/impl/AbstractCommonPowerMockRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-module-junit4/1.7.1/3319960ab1290589960e73920888e944392224b1/powermock-module-junit4-1.7.1-sources.jar!/org/powermock/modules/junit4/PowerMockRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="482" column="4" selection-start-line="482" selection-start-column="4" selection-end-line="482" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/_3_StartThePhoneActivityImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runner/JUnitCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="130" column="3" selection-start-line="130" selection-start-column="3" selection-end-line="130" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -738,182 +897,89 @@
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-api-mockito2/1.7.1/869430e9357a35fdccdb89f4bfbc1365eaff3559/powermock-api-mockito2-1.7.1-sources.jar!/org/powermock/api/mockito/mockmaker/PowerMockMaker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
+        <state relative-caret-position="124">
           <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.8.9/45f340ae3e0a0d7a97a1cb8173a081a3856c41eb/mockito-core-2.8.9-sources.jar!/org/mockito/plugins/MockMaker.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.8.9/1afb35b2d77d40567756c379e54c18da3574a96e/mockito-core-2.8.9.jar!/org/mockito/internal/creation/bytebuddy/TypeCachingBytecodeGenerator.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="762" selection-start-line="762" selection-end-line="762" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/DetailActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="71" column="46" selection-start-line="71" selection-start-column="46" selection-end-line="71" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_info.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/pluralsight/candycoded/BuildConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/BuildConfigTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/sun/reflect/MethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/override.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state>
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#3041#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/_4_ShareACandyWithAnIntent.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.8.9/45f340ae3e0a0d7a97a1cb8173a081a3856c41eb/mockito-core-2.8.9-sources.jar!/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/InfoActivityTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/InfoActivityTestTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/_3_StartThePhoneActivityImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="132">
+          <caret line="93" column="7" lean-forward="true" selection-start-line="93" selection-start-column="7" selection-end-line="93" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-api-mockito2/1.7.1/869430e9357a35fdccdb89f4bfbc1365eaff3559/powermock-api-mockito2-1.7.1-sources.jar!/org/powermock/api/mockito/PowerMockito.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
-          <caret line="206" column="5" selection-start-line="206" selection-start-column="5" selection-end-line="206" selection-end-column="5" />
+          <caret line="206" column="34" selection-start-line="206" selection-start-column="34" selection-end-line="206" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/_2_StartTheGoogleMapsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-356">
-          <caret line="114" column="16" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-module-junit4/1.7.1/3319960ab1290589960e73920888e944392224b1/powermock-module-junit4-1.7.1-sources.jar!/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.8.9/45f340ae3e0a0d7a97a1cb8173a081a3856c41eb/mockito-core-2.8.9-sources.jar!/org/mockito/internal/creation/bytebuddy/SubclassByteBuddyMockMaker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
-          <caret line="135" column="11" selection-start-line="135" selection-start-column="11" selection-end-line="135" selection-end-column="11" />
+          <caret line="70" column="48" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.8.9/45f340ae3e0a0d7a97a1cb8173a081a3856c41eb/mockito-core-2.8.9-sources.jar!/org/mockito/internal/creation/bytebuddy/TypeCachingBytecodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
-            <element signature="e#5669#5801#0" expanded="true" />
-            <element signature="e#5800#5801#0" expanded="true" />
+            <element signature="e#1308#1554#0" expanded="true" />
+            <element signature="e#1553#1554#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-module-junit4-common/1.7.1/492b0987e5dcfef9997575e0c68245193156d6b2/powermock-module-junit4-common-1.7.1-sources.jar!/org/powermock/modules/junit4/common/internal/impl/AbstractCommonPowerMockRunner.java">
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/java/lang/ClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-module-junit4/1.7.1/3319960ab1290589960e73920888e944392224b1/powermock-module-junit4-1.7.1-sources.jar!/org/powermock/modules/junit4/PowerMockRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-module-junit4-common/1.7.1/492b0987e5dcfef9997575e0c68245193156d6b2/powermock-module-junit4-common-1.7.1-sources.jar!/org/powermock/modules/junit4/common/internal/impl/JUnit4TestSuiteChunkerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="120" column="12" lean-forward="true" selection-start-line="120" selection-start-column="12" selection-end-line="120" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/_1_StartTheStoreInformationActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        <state relative-caret-position="-131">
+          <caret line="762" selection-start-line="762" selection-end-line="762" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/_3_StartThePhoneActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="46" column="12" lean-forward="true" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+        <state relative-caret-position="124">
+          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#964#988#0" expanded="true" />
-            <element signature="e#5331#5361#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org/mockito/internal/creation/bytebuddy/annotations.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org/powermock/api/mockito/internal/mockcreation/annotations.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
         </state>
       </provider>
     </entry>

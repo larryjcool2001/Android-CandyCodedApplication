@@ -1,4 +1,7 @@
 <root>
+    <item name='java.lang.BootClassLoader'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
     <item name='java.lang.Exception'>
         <annotation name='java.lang.Deprecated' />
     </item>

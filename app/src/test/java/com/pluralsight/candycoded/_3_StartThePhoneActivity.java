@@ -38,7 +38,7 @@ import static org.mockito.Mockito.verify;
 @PrepareForTest({AppCompatActivity.class, Intent.class, Uri.class, InfoActivity.class})
 @RunWith(PowerMockRunner.class)
 
-public class _3_StartThePhoneActivity {
+    public class _3_StartThePhoneActivity {
 
     private static final String LAYOUT_XML_FILE = "res/layout/activity_info.xml";
     // Spy on a MainActivity instance.
@@ -114,20 +114,20 @@ public class _3_StartThePhoneActivity {
     }
 
     @Test
-    public void phone_intent_set_data() throws Exception {
+    public void phone_intent_set_data() throws Exception{
         createPhoneIntent_Exists();
         assertTrue("The Uri for the phone wasn't created.", called_uri_parse);
         assertTrue("The data was not set for the Intent.", set_data);
     }
 
     @Test
-    public void phone_intent_start_activity() throws Exception {
+    public void phone_intent_start_activity() throws Exception{
         createPhoneIntent_Exists();
         assertTrue("The method startActivity() was not called.", called_startActivity_correctly);
     }
 
     @Test
-    public void createPhoneIntent_Exists() throws Exception {
+    public void createPhoneIntent_Exists() throws Exception{
         Method myMethod = null;
 
         try {
@@ -140,6 +140,9 @@ public class _3_StartThePhoneActivity {
         assertNotNull("createPhoneIntent() method doesn't exist in InfoActivity class.", myMethod);
     }
 
+    /**
+     * @throws Exception
+     */
     @Test
     public void test_xml() throws Exception {
         ArrayList<XMLTestHelpers.ViewContainer> viewContainers = readLayoutXML(LAYOUT_XML_FILE);

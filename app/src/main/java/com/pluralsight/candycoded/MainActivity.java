@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         Cursor cursor = db.rawQuery("SELECT * FROM candy", null);
 
         final CandyCursorAdapter adapter = new CandyCursorAdapter(this, cursor);
-        ListView listView = (ListView)this.findViewById(R.id.list_view_candy);
+        ListView listView = this.findViewById(R.id.list_view_candy);
 
         listView.setAdapter(adapter);
 
@@ -103,5 +103,8 @@ public class MainActivity extends AppCompatActivity {
 
             db.insert(CandyEntry.TABLE_NAME, null, values);
         }
+    }
+
+    public void createPhoneIntent(View view) {
     }
 }

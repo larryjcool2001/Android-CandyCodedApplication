@@ -55,4 +55,16 @@ public class InfoActivityTestTest {
     @Test
     public void createPhoneIntent4() {
     }
+
+    @Test
+    public void onCreate5() {
+    }
+
+    @Test
+    public void createMapIntent3() {
+    }
+
+    @Test
+    public void createPhoneIntent5() {
+    }
 }
