@@ -1,0 +1,6 @@
+<root>
+    <item
+        name='org.powermock.modules.junit4.common.internal.impl.AbstractCommonPowerMockRunner void run(org.junit.runner.notification.RunNotifier)'>
+        <annotation name='org.jetbrains.annotations.NonBlocking' />
+    </item>
+</root>

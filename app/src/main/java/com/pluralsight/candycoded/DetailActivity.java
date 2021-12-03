@@ -7,6 +7,7 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import com.pluralsight.candycoded.DB.CandyContract;
@@ -65,6 +66,9 @@ public class DetailActivity extends AppCompatActivity {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.detail, menu);
         return true;
+    }
+
+    public void createPhoneIntent(View view) {
     }
 
     // ***
