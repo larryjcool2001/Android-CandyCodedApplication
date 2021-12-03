@@ -5,37 +5,38 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
-
+import java.io.IOException;
+import java.io.InputStream;
+import java.lang.reflect.Method;
+import java.util.ArrayList;
 import junit.framework.Assert;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mockito;
+
 import org.powermock.api.mockito.PowerMockito;
 import org.powermock.core.classloader.annotations.PrepareForTest;
 import org.powermock.modules.junit4.PowerMockRunner;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.lang.reflect.Method;
-import java.util.ArrayList;
-
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
+import static org.mockito.ArgumentMatchers.booleanThat;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
+
+
 
 
 //@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 @PrepareForTest({AppCompatActivity.class, Intent.class, Uri.class, InfoActivity.class})
 @RunWith(PowerMockRunner.class)
 public class _2_StartTheGoogleMapsActivity {
-
     public static final String LAYOUT_XML_FILE = "res/layout/activity_info.xml";
     private static boolean called_uri_parse = false;
     private static boolean created_intent = false;
@@ -43,12 +44,14 @@ public class _2_StartTheGoogleMapsActivity {
     private static boolean set_package = false;
     private static boolean resolve_activity = false;
     private static boolean called_startActivity_correctly = false;
+    private static InfoActivity infoActivity;
+
 
     // Mockito setup
     @BeforeClass
     public static void setup() throws Exception {
         // Spy on a MainActivity instance.
-        InfoActivity infoActivity = PowerMockito.spy(new InfoActivity());
+        infoActivity = PowerMockito.spy(new InfoActivity());
         // Create a fake Bundle to pass in.
         Bundle bundle = mock(Bundle.class);
         Uri mockUri = mock(Uri.class);
@@ -162,6 +165,8 @@ public class _2_StartTheGoogleMapsActivity {
                 new XMLTestHelpers.ViewContainer("@+id/text_view_address", "createMapIntent", "true");
         boolean address_set_correct =  viewContainers.contains(addressView);
 
+
+
         Assert.assertTrue("In activity_info.xml, the TextView text_view_address does not have " +
                         "the clickable and onClick properties set.",
                 address_set_correct);
@@ -170,10 +175,14 @@ public class _2_StartTheGoogleMapsActivity {
     public ArrayList<XMLTestHelpers.ViewContainer> readLayoutXML(String layoutFileName) {
         InputStream inputStream = null;
 
-        ArrayList<XMLTestHelpers.ViewContainer> viewContainers = new ArrayList<XMLTestHelpers.ViewContainer>();
+        ArrayList<XMLTestHelpers.ViewContainer>
+            viewContainers = new ArrayList<XMLTestHelpers.ViewContainer>();
 
         try {
-            inputStream = this.getClass().getClassLoader().getResourceAsStream(layoutFileName);
+            Class thisClass = this.getClass();
+            ClassLoader classLoader = thisClass.getClassLoader();
+            inputStream = classLoader.getResourceAsStream("res/layout/activity_info.xml");
+
             XmlPullParserFactory factory = XmlPullParserFactory.newInstance();
             factory.setNamespaceAware(false);
             XmlPullParser parser = factory.newPullParser();

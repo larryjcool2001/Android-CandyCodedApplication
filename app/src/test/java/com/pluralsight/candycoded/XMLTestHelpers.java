@@ -1,10 +1,9 @@
 package com.pluralsight.candycoded;
 
-import org.xmlpull.v1.XmlPullParser;
-import org.xmlpull.v1.XmlPullParserException;
-
 import java.io.IOException;
 import java.util.ArrayList;
+import org.xmlpull.v1.XmlPullParser;
+import org.xmlpull.v1.XmlPullParserException;
 
 /**
  * Created by sarah on 9/28/17.
@@ -45,11 +44,12 @@ public class XMLTestHelpers {
         }
     }
 
-    public static ArrayList<ViewContainer> readFeed(XmlPullParser parser) throws XmlPullParserException, IOException {
+    public static ArrayList<ViewContainer> readFeed(XmlPullParser parser) throws
+        XmlPullParserException, IOException {
 
         ArrayList<ViewContainer> viewContainers = new ArrayList<ViewContainer>();
 
-        parser.require(XmlPullParser.START_TAG, null, "android.support.constraint.ConstraintLayout");
+        parser.require(XmlPullParser.START_TAG, null, "androidx.constraintlayout.widget.ConstraintLayout");
         while (parser.next() != XmlPullParser.END_TAG) {
             if (parser.getEventType() != XmlPullParser.START_TAG) {
                 continue;
