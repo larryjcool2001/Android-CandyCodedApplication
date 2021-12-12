@@ -13,11 +13,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="063ed58a-1af3-497b-98c6-fe297dc6ea09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/pluralsight/candycoded/MainActivityTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/DB/CandyDbHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/DB/CandyDbHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_info.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +151,7 @@
       <recent name="com.pluralsight.candycoded" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MainActivityTest">
+  <component name="RunManager" selected="Gradle._1_StartTheStoreInformationActivity">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -367,8 +365,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MainActivityTest" />
         <item itemvalue="Gradle._1_StartTheStoreInformationActivity" />
+        <item itemvalue="Gradle.MainActivityTest" />
         <item itemvalue="Android App.DetailActivity" />
         <item itemvalue="Gradle._2_StartTheGoogleMapsActivity" />
         <item itemvalue="Gradle._3_StartThePhoneActivity.readLayoutXML" />

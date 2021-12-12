@@ -1,5 +1,4 @@
 package com.pluralsight.candycoded;
-
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -23,8 +22,6 @@ public class InfoActivity extends AppCompatActivity {
         Picasso.with(this).
                 load(uri).
                 into(getCandyStoreImageView());
-
-
     }
 
     private ImageView getCandyStoreImageView() {
