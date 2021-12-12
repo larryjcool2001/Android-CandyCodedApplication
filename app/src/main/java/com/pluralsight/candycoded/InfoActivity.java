@@ -3,9 +3,10 @@ package com.pluralsight.candycoded;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.squareup.picasso.Picasso;
 
@@ -16,14 +17,21 @@ public class InfoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_info);
 
-        Uri uri = Uri.parse("android.resource://com.codeschool.candycoded/" + R.drawable.store_front);
-        ImageView candyStoreImageView = (ImageView)findViewById(R.id.image_view_candy_store);
+        Uri uri = Uri.parse("android.resource://comcodeschoolcandycoded/" + R.drawable.store_front);
+        ImageView candyStoreImageView = null;
+
         Picasso.with(this).
                 load(uri).
-                into(candyStoreImageView);
+                into(getCandyStoreImageView());
 
 
     }
+
+    private ImageView getCandyStoreImageView() {
+        return null;
+    }
+
+
 
     // ***
     // TODO - Task 2 - Launch the Google Maps Activity
@@ -38,13 +46,15 @@ public class InfoActivity extends AppCompatActivity {
         }
     }
 
-    private void startActivity(Intent mapIntent) {
+
+
+    public void startActivity(Intent mapIntent) {
     }
     // ***
     // TODO - Task 3 - Launch the Phone Activity
     // ***
-    public void createPhoneIntent(View view) {
+    public void createPhoneIntent(View view){
         Intent phoneIntent = new Intent(Intent.ACTION_DIAL);
         phoneIntent.setData(Uri.parse("tel:0123456789"));
         startActivity(phoneIntent);
-}
+    }
